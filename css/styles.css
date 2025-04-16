@@ -1,0 +1,89 @@
+.product-image {
+    max-width: 80%; /* Reduce width */
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.cart-item {
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Align items vertically */
+    margin-bottom: 15px;
+}
+
+.cart-item-thumb {
+    width: 150px; /* Adjusted size */
+    height: auto;
+    object-fit: cover;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.cart-item div {
+    flex: 1; /* Allow text content to take up remaining space */
+}
+
+.btn {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: white;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    color: white;
+}
+
+.product-details {
+    display: flex; /* Use flexbox for layout */
+    gap: 20px; /* Add spacing between columns */
+    margin-top: 20px;
+}
+
+.product-details .col-6 {
+    flex: 1; /* Make columns take equal space */
+}
+
+.product-details h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.product-details p {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+.product-details input[type="number"] {
+    width: 60px;
+    padding: 5px;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.product-details .btn {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.product-details .btn-primary {
+    background-color: #007bff;
+    color: white;
+}
+
+.product-details .btn-success {
+    background-color: #28a745;
+    color: white;
+    margin-left: 10px;
+}
